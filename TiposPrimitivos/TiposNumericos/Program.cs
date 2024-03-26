@@ -20,6 +20,11 @@ namespace TiposPrimitivos.TiposNumericos
             //numeros sem sinais, ou seja, numero positivo
             uint numeroUint = 10;
 
+            //numeros flutuantes
+            double numeroDouble = 3.14;
+            float numeroFloat = 4.16;
+            decimal numeroDecimal = 6.78;
+
             Console.WriteLine(numeroInteiro);
             Console.WriteLine(numeroLongo);
             Console.WriteLine(numeroUint);
