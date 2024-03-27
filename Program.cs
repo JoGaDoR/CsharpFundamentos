@@ -11,7 +11,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        DatasEHoras.DateAndTime();
+        // DatasEHoras.DateAndTime();
         // OperacoesComTexto.OperationWithText();
         // TiposBoleanos.BooleanTypes();
         // TiposNumericos.NumericTypes();
