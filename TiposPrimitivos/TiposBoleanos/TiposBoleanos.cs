@@ -1,8 +1,8 @@
 namespace TiposPrimitivos.TiposBoleanos;
 
-public class Program
+public class TiposBoleanos
 {
-    static void TiposBoleanos()
+    public static void BooleanTypes()
     {
         //todos os tipos booleanos no site
         //https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/boolean

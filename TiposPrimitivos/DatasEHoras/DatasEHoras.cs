@@ -2,7 +2,7 @@ namespace TiposPrimitivos.DatasEHoras;
 
 public class DatasEHoras
 {
-    static void DataEHoras()
+    public static void DateAndTime()
     {
         DateOnly dia = new DateOnly(2024, 03, 26);
 

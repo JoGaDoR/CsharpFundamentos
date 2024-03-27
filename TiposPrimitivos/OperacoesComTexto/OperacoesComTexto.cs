@@ -1,11 +1,9 @@
-using System;
-
 namespace TiposPrimitivos.OperacoesComTexto;
 
-public class Program
+public class OperacoesComTexto
 
 {
-    static void OperacoesComTexto()
+    public static void OperationWithText()
     {
         string nome = "Thiago";
         string sobrenome = "Coelho";

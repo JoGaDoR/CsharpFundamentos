@@ -2,9 +2,9 @@ using System;
 
 namespace TiposPrimitivos.TiposNumericos
 {
-    public class Program
+    public class TiposNumericos
     {
-        static void TiposNumericos()
+        public static void NumericTypes()
         {
 
             //todos os tipos inteiros no site

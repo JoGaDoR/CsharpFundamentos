@@ -1,8 +1,8 @@
 namespace TiposPrimitivos.TiposTexto;
 
-public class Program
+public class TiposTexto
 {
-    static void TiposTexto()
+    public static void TextTypes()
     {
         //char - https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/char
         char letra = 'T';
