@@ -12,3 +12,4 @@ D:\THIAGO\CURSOS\CsharpFundamentos\obj\Debug\net8.0\refint\CsharpFundamentos.dll
 D:\THIAGO\CURSOS\CsharpFundamentos\obj\Debug\net8.0\CsharpFundamentos.pdb
 D:\THIAGO\CURSOS\CsharpFundamentos\obj\Debug\net8.0\CsharpFundamentos.genruntimeconfig.cache
 D:\THIAGO\CURSOS\CsharpFundamentos\obj\Debug\net8.0\ref\CsharpFundamentos.dll
+D:\THIAGO\CURSOS\CsharpFundamentos\obj\Debug\net8.0\CsharpFundamentos.sourcelink.json
