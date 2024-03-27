@@ -12,7 +12,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Arrays.ArrayCollection();
+        Arrays.ArrayCollectionMultidimensional();
+        // Arrays.ArrayCollection();
         // DatasEHoras.DateAndTime();
         // OperacoesComTexto.OperationWithText();
         // TiposBoleanos.BooleanTypes();
