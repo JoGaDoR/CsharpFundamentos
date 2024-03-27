@@ -13,7 +13,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Listas.ListCollection();
+        Listas.JoinElementsList();
+        // Listas.ListCollection();
         // Arrays.ArrayCollectionMultidimensional();
         // Arrays.ArrayCollection();
         // DatasEHoras.DateAndTime();

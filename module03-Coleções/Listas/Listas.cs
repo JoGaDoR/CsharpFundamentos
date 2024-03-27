@@ -49,4 +49,17 @@ public class Listas
         Console.WriteLine($"Quantidade de elementos: {inteiros.Count}");
         
     }
+
+    public static void JoinElementsList()
+    {
+        List<string> nome = new List<string>();
+        nome.Add("Thiago");
+        nome.Add("Arruda");
+
+        //Join() para unir os elementos da lista
+        //Join("", nome) primeiro vem o separador dos valores e depois a lista desejada
+        string resultado = string.Join(" ", nome);
+
+        Console.WriteLine($"Unir elementos da lista: {resultado}");
+    }
 }
