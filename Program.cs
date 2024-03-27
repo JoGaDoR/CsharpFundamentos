@@ -7,6 +7,7 @@ using Colecoes.Arrays;
 using Colecoes.Listas;
 using Colecoes.Dicionarios;
 using FuncoesVariaveisDebug.FuncoesComParametros;
+using FuncoesVariaveisDebug.FuncoesDevolvendoValores;
 
 
 namespace Program;
@@ -27,14 +28,18 @@ class Program
         // TiposTexto.TextTypes();
 
 
-        var calcFuncoesComParametros = new FuncoesComParametros();
-        calcFuncoesComParametros.Adicionar(10, 20);
+        // var calcFuncoesComParametros = new FuncoesComParametros();
+        // calcFuncoesComParametros.Adicionar(10, 20);
 
-        //agora um exemplo de função com parametro nomeado
-        //é a forma recomendada de se passar um parametro
+        // //agora um exemplo de função com parametro nomeado
+        // //é a forma recomendada de se passar um parametro
 
-        var calcFuncoesComParametrosNomeados = new FuncoesComParametros();
-        calcFuncoesComParametrosNomeados.Subtrair(valor1: 10, valor2: 20); //parametro nomeado
+        // var calcFuncoesComParametrosNomeados = new FuncoesComParametros();
+        // calcFuncoesComParametrosNomeados.Subtrair(valor1: 10, valor2: 20); //parametro nomeado
+
+        var calcFuncoesDevolvendoValores = new FuncoesDevolvendoValores();
+        var resultado = calcFuncoesDevolvendoValores.Multiplicar(10, 20);
+        Console.WriteLine($"A multiplicação de 10 * 20 = {resultado}");
     }
 }
 
