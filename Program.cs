@@ -37,9 +37,29 @@ class Program
         // var calcFuncoesComParametrosNomeados = new FuncoesComParametros();
         // calcFuncoesComParametrosNomeados.Subtrair(valor1: 10, valor2: 20); //parametro nomeado
 
-        var calcFuncoesDevolvendoValores = new FuncoesDevolvendoValores();
-        var resultado = calcFuncoesDevolvendoValores.Multiplicar(10, 20);
-        Console.WriteLine($"A multiplicação de 10 * 20 = {resultado}");
+        // var calcFuncoesDevolvendoValores = new FuncoesDevolvendoValores();
+        // var resultado = calcFuncoesDevolvendoValores.Multiplicar(10, 20);
+        // Console.WriteLine($"A multiplicação de 10 * 20 = {resultado}");
+
+        //aqui a função irá retornar 2 valores de tipos diferentes
+        var calcFuncaoRetornaDoisValoresDiferentes = new FuncoesDevolvendoValores();
+        var resultado = calcFuncaoRetornaDoisValoresDiferentes.Somar(2024, 03);
+        Console.WriteLine(resultado);
+
+        //acessando os valores do retorno na ordem que foram declarados
+        //no exemplo foi int e string
+        Console.WriteLine($"Resultado do primeiro item: {resultado.Item1}");
+        Console.WriteLine($"Resultado do segundo item: {resultado.Item2}");
+
+        //forma correta de acessar os valores do retorno
+        Console.WriteLine(resultado.resultadoDaSoma);
+        Console.WriteLine(resultado.author);
+
+        //outra forma de acessar os valores diferentes
+        var segundaForma = new FuncoesDevolvendoValores();
+        (int resultadoDaSoma, string author) = segundaForma.Somar(22, 58);
+        Console.WriteLine(resultadoDaSoma);
+        Console.WriteLine(author);
     }
 }
 
