@@ -4,6 +4,7 @@ using TiposPrimitivos.TiposBoleanos;
 using TiposPrimitivos.TiposNumericos;
 using TiposPrimitivos.TiposTexto;
 using Colecoes.Arrays;
+using Colecoes.Listas;
 
 
 namespace Program;
@@ -12,7 +13,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Arrays.ArrayCollectionMultidimensional();
+        Listas.ListCollection();
+        // Arrays.ArrayCollectionMultidimensional();
         // Arrays.ArrayCollection();
         // DatasEHoras.DateAndTime();
         // OperacoesComTexto.OperationWithText();
