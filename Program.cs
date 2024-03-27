@@ -12,10 +12,10 @@ class Program
     static void Main(string[] args)
     {
         DatasEHoras.DateAndTime();
-        OperacoesComTexto.OperationWithText();
-        TiposBoleanos.BooleanTypes();
-        TiposNumericos.NumericTypes();
-        TiposTexto.TextTypes();
+        // OperacoesComTexto.OperationWithText();
+        // TiposBoleanos.BooleanTypes();
+        // TiposNumericos.NumericTypes();
+        // TiposTexto.TextTypes();
     }
 }
 
