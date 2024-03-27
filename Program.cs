@@ -27,8 +27,14 @@ class Program
         // TiposTexto.TextTypes();
 
 
-        var calcFuncoesComparametros = new FuncoesComParametros();
-        calcFuncoesComparametros.Adicionar(10, 20);
+        var calcFuncoesComParametros = new FuncoesComParametros();
+        calcFuncoesComParametros.Adicionar(10, 20);
+
+        //agora um exemplo de função com parametro nomeado
+        //é a forma recomendada de se passar um parametro
+
+        var calcFuncoesComParametrosNomeados = new FuncoesComParametros();
+        calcFuncoesComParametrosNomeados.Subtrair(valor1: 10, valor2: 20); //parametro nomeado
     }
 }
 
