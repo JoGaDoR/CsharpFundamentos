@@ -5,6 +5,7 @@ using TiposPrimitivos.TiposNumericos;
 using TiposPrimitivos.TiposTexto;
 using Colecoes.Arrays;
 using Colecoes.Listas;
+using Colecoes.Dicionarios;
 
 
 namespace Program;
@@ -13,7 +14,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Listas.JoinElementsList();
+        Dicionarios.DictionaryCollection();
+        // Listas.JoinElementsList();
         // Listas.ListCollection();
         // Arrays.ArrayCollectionMultidimensional();
         // Arrays.ArrayCollection();
