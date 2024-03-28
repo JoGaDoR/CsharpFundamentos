@@ -1,4 +1,4 @@
-namespace TiposPrimitivos.OperacoesComTexto;
+namespace Module02TiposPrimitivos.OperacoesComTexto;
 
 public class OperacoesComTexto
 

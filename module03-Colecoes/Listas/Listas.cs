@@ -1,4 +1,4 @@
-namespace Colecoes.Listas;
+namespace CsharpFundamentos.Module03Colecoes.Listas;
 
 public class Listas
 {

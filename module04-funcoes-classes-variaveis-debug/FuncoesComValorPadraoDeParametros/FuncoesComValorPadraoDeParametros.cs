@@ -1,4 +1,4 @@
-namespace FuncoesVariaveisDebug.FuncoesComValorPadraoDeParametros;
+namespace CsharpFundamentos.Module04FuncoesClassesVariaveisDebug.FuncoesComValorPadraoDeParametros;
 
 public class FuncoesComValorPadraoDeParametros
 {

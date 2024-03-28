@@ -1,4 +1,4 @@
-namespace TiposPrimitivos.TiposBoleanos;
+namespace Module02TiposPrimitivos.TiposBoleanos;
 
 public class TiposBoleanos
 {

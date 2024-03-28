@@ -1,4 +1,4 @@
-namespace Colecoes.HashSet;
+namespace CsharpFundamentos.Module03Colecoes.HashSet;
 
 public class HashSet
 {

@@ -1,6 +1,4 @@
-using System;
-
-namespace TiposPrimitivos.TiposNumericos
+namespace Module02TiposPrimitivos.TiposNumericos
 {
     public class TiposNumericos
     {

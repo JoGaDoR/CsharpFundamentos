@@ -1,4 +1,4 @@
-namespace TiposPrimitivos.DatasEHoras;
+namespace Module02TiposPrimitivos.DatasEHoras;
 
 public class DatasEHoras
 {

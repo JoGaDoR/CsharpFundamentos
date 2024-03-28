@@ -1,4 +1,4 @@
-namespace TiposPrimitivos.TiposTexto;
+namespace Module02TiposPrimitivos.TiposTexto;
 
 public class TiposTexto
 {

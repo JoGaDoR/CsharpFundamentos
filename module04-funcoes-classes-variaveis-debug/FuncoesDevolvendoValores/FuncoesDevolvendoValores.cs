@@ -1,4 +1,4 @@
-namespace FuncoesVariaveisDebug.FuncoesDevolvendoValores;
+namespace CsharpFundamentos.Module04FuncoesClassesVariaveisDebug.FuncoesDevolvendoValores;
 
 public class FuncoesDevolvendoValores
 {

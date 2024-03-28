@@ -1,4 +1,4 @@
-namespace Colecoes.Dicionarios;
+namespace CsharpFundamentos.Module03Colecoes.Dicionarios;
 
 public class Dicionarios
 {

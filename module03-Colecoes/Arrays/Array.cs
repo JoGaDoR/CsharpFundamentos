@@ -1,4 +1,4 @@
-namespace Colecoes.Arrays;
+namespace CsharpFundamentos.Module03Colecoes.Arrays;
 
 public class Arrays
 {
