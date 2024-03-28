@@ -15,6 +15,7 @@
 
 
 using CsharpFundamentos.ExerciciosClasses.Iniciante.ContaBancaria;
+using CsharpFundamentos.Module04FuncoesClassesVariaveisDebug.ClassesCriandoComValores;
 
 namespace Program;
 
@@ -22,8 +23,11 @@ class Program
 {
     static void Main(string[] args)
     {
+        CarroInformacoes.Acessar();
 
-        AcoesDaConta.MinhaConta();
+
+        // AcoesDaConta.MinhaConta();
+
 
         // var pessoa = new Pessoa();
         // pessoa.Nome = "Thiago";
