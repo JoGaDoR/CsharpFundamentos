@@ -14,12 +14,16 @@
 
 
 
+using CsharpFundamentos.ExerciciosClasses.Iniciante.ContaBancaria;
+
 namespace Program;
 
 class Program
 {
     static void Main(string[] args)
     {
+
+        AcoesDaConta.MinhaConta();
 
         // var pessoa = new Pessoa();
         // pessoa.Nome = "Thiago";
