@@ -1,14 +1,17 @@
-﻿using TiposPrimitivos.DatasEHoras;
-using TiposPrimitivos.OperacoesComTexto;
-using TiposPrimitivos.TiposBoleanos;
-using TiposPrimitivos.TiposNumericos;
-using TiposPrimitivos.TiposTexto;
-using Colecoes.Arrays;
-using Colecoes.Listas;
-using Colecoes.Dicionarios;
-using FuncoesVariaveisDebug.FuncoesComParametros;
-using FuncoesVariaveisDebug.FuncoesDevolvendoValores;
-using FuncoesVariaveisDebug.FuncoesComValorPadraoDeParametros;
+﻿// using TiposPrimitivos.DatasEHoras;
+// using TiposPrimitivos.OperacoesComTexto;
+// using TiposPrimitivos.TiposBoleanos;
+// using TiposPrimitivos.TiposNumericos;
+// using TiposPrimitivos.TiposTexto;
+// using Colecoes.Arrays;
+// using Colecoes.Listas;
+// using Colecoes.Dicionarios;
+// using FuncoesVariaveisDebug.FuncoesComParametros;
+// using FuncoesVariaveisDebug.FuncoesDevolvendoValores;
+// using FuncoesVariaveisDebug.FuncoesComValorPadraoDeParametros;
+// using ExerciciosClasses.FabricaDeCarros.CarroEspecificacoes;
+// using ExerciciosClasses.Pessoa;
+
 
 
 namespace Program;
@@ -17,6 +20,13 @@ class Program
 {
     static void Main(string[] args)
     {
+
+        // var pessoa = new Pessoa();
+        // pessoa.Nome = "Thiago";
+        // Console.WriteLine(pessoa.Nome);
+
+        // Carro.CarroModelo();
+
         // Dicionarios.DictionaryCollection();
         // Listas.JoinElementsList();
         // Listas.ListCollection();
@@ -64,9 +74,9 @@ class Program
         // Console.WriteLine(resultadoDaSoma);
         // Console.WriteLine(author);
 
-        //funcao que foi definido default para o valor2
-        var funcaoComValorPadrao = new FuncoesComValorPadraoDeParametros();
-        funcaoComValorPadrao.ValorPadraoDoParametro(valor1: 201); //valor2 ja tem um value default
+        // //funcao que foi definido default para o valor2
+        // var funcaoComValorPadrao = new FuncoesComValorPadraoDeParametros();
+        // funcaoComValorPadrao.ValorPadraoDoParametro(valor1: 201); //valor2 ja tem um value default
     }
 }
 
