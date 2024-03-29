@@ -1,21 +1,5 @@
-﻿// using TiposPrimitivos.DatasEHoras;
-// using TiposPrimitivos.OperacoesComTexto;
-// using TiposPrimitivos.TiposBoleanos;
-// using TiposPrimitivos.TiposNumericos;
-// using TiposPrimitivos.TiposTexto;
-// using Colecoes.Arrays;
-// using Colecoes.Listas;
-// using Colecoes.Dicionarios;
-// using FuncoesVariaveisDebug.FuncoesComParametros;
-// using FuncoesVariaveisDebug.FuncoesDevolvendoValores;
-// using FuncoesVariaveisDebug.FuncoesComValorPadraoDeParametros;
-// using ExerciciosClasses.FabricaDeCarros.CarroEspecificacoes;
-// using ExerciciosClasses.Pessoa;
-
-
-
-using CsharpFundamentos.ExerciciosClasses.Iniciante.ContaBancaria;
-using CsharpFundamentos.Module04FuncoesClassesVariaveisDebug.ClassesCriandoComValores;
+﻿
+using CsharpFundamentos.Module05Condicionais.IfElseEElseIfParte01;
 
 namespace Program;
 
@@ -23,7 +7,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        CarroInformacoes.Acessar();
+        IfElseEElseIfParte01.Exemplos();
+
+        
+        // CarroInformacoes.Acessar();
 
 
         // AcoesDaConta.MinhaConta();
