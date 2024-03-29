@@ -1,5 +1,6 @@
 ﻿
 using CsharpFundamentos.Module05Condicionais.IfElseEElseIfParte01;
+using CsharpFundamentos.Module05Condicionais.Ternario;
 
 namespace Program;
 
@@ -7,7 +8,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        IfElseEElseIfParte01.Exemplos();
+        Ternario.CondicionalTernario();
+
+
+        // IfElseEElseIfParte01.Exemplos();
 
         
         // CarroInformacoes.Acessar();
